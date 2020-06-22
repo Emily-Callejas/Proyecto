@@ -4,7 +4,7 @@
 - Emily Callejas Torrico
 
 ## Descripción
-> LUAMIC es un robot que se armará en base a placas; que estara conectado a nuestro celular mediante módulo bluetooth; además podrá ser controlado a través de un control remoto.
+> LUAMIC es un robot que se armará en base a la placa **Arduino genuino uno**, el cual tendrá un módulo bluetooth que nos permitira conectarnos a nuestro celular, y mediante una app que desarrollaremos, podremos controlar al robot para que siga acciones que nosotros decidamos.
 >>Cabe destacar que se sigue trabajando en sus funcionalidades. 
 
 ## Tecnologías usadas
