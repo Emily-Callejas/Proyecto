@@ -30,7 +30,7 @@ void loop() {
     if(dato == '1')// AVANZAR
     {
       digitalWrite(IN4, LOW);
-      digitalWrite(IN3, HIGH); //Pin 3 encendido 
+      digitalWrite(IN3, HIGH);//Pin 3 encendido 
       digitalWrite(IN2, LOW);
       digitalWrite(IN1, LOW);      
     }
@@ -57,5 +57,21 @@ void loop() {
       digitalWrite(IN3, HIGH);//Pin 4 encendido
       digitalWrite(IN2, LOW);
       digitalWrite(IN1, HIGH);//Pin 1 encendido      
-    }     
+    }  
+    if(dato == '5')// RETROCEDER A LA DERECHA
+    {
+      digitalWrite(IN4, HIGH);//Pin 4 encendido
+      digitalWrite(IN3, LOW);
+      digitalWrite(IN2, HIGH);//Pin 2 encendido
+      digitalWrite(IN1, LOW);      
+    }    
+
+    if(dato == '6')// RETROCEDER A LA IZQUIERDA
+    {
+      digitalWrite(IN4, HIGH);//Pin 4 encendido
+      digitalWrite(IN3, LOW);
+      digitalWrite(IN2, LOW);
+      digitalWrite(IN1, HIGH);//Pin 1 encendido      
+    }
+   
 }
