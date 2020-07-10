@@ -14,3 +14,5 @@ Primero se realizó la coneccion de la Fuente de energia al Módulo L298N, media
 En segundo lugar se distibuyó la energia hacia los pines de alimentación VIN y GND de la placa arduino.
 
 Porteriormente se conecto los pines de control de motores del modulo a los pines PWM de la placa en un orden respectivo.Una vez realizada esto, se conectó los motores al módulo L298N.
+
+Finalmente realizamos la coneccion del Módulo Bluethooth con la placa arduino, utiliozando cuatro pines del modulo; dos para la recepcion de energia y dos para el manejar su control.
