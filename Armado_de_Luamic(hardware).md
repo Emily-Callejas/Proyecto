@@ -18,3 +18,5 @@ En segundo lugar se distibuyó la energia hacia los pines de alimentación VIN y
 Porteriormente se conectó los pines de control de motores del puente L298N a los pines  digitales PWM de la placa en un orden respectivo.Una vez realizada esto, se conectó los motores al puente L298N.
 
 Finalmente realizamos la conexión del Módulo Bluetooth con la placa arduino, utilizando cuatro pines del módulo; dos para la recepción de energía y dos para controlar las acciones del mismo.
+
+![Diagrama de Conexión](https://1.bp.blogspot.com/-YFFSotBVOy8/Xwox0ZI0pcI/AAAAAAAAALc/J_yQ42FCA_IIaB6giIUAXsYUl9lI2dq6gCNcBGAsYHQ/s320/Diagrama%2Bde%2Bconexion_2.jpg "Diagrama de conexión")
