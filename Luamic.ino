@@ -1,5 +1,5 @@
 #include <SoftwareSerial.h>
-SoftwareSerial bluetooth(10,11);
+SoftwareSerial bluetooth(11,12);
 
 int IN4 = 2;
 int IN3 = 3;
@@ -35,10 +35,10 @@ void loop() {
       digitalWrite(IN1, LOW);      
     }
 
-    if(dato == '2')// AVANZAR A LA DERECHA
+    if(dato == '2')// GIRAR A LA DERECHA
     {
       digitalWrite(IN4, LOW);
-      digitalWrite(IN3, HIGH);//Pin 3 encendido
+      digitalWrite(IN3, LOW);
       digitalWrite(IN2, HIGH);//Pin 2 encendido
       digitalWrite(IN1, LOW);      
     }
@@ -51,27 +51,42 @@ void loop() {
       digitalWrite(IN1, LOW);      
     }
 
-    if(dato == '4')// AVANZAR A LA IZQUIERDA
+    if(dato == '4')// GIRAR A LA IZQUIERDA
     {
       digitalWrite(IN4, LOW);
-      digitalWrite(IN3, HIGH);//Pin 4 encendido
+      digitalWrite(IN3, LOW);
       digitalWrite(IN2, LOW);
       digitalWrite(IN1, HIGH);//Pin 1 encendido      
     }  
-    if(dato == '5')// RETROCEDER A LA DERECHA
+    if(dato == '5')// AVANZAR A LA DERECHA
     {
-      digitalWrite(IN4, HIGH);//Pin 4 encendido
-      digitalWrite(IN3, LOW);
+      digitalWrite(IN4, LOW);
+      digitalWrite(IN3, HIGH);//Pin 3 encendido
       digitalWrite(IN2, HIGH);//Pin 2 encendido
       digitalWrite(IN1, LOW);      
     }    
 
-    if(dato == '6')// RETROCEDER A LA IZQUIERDA
+    if(dato == '6')// AVANZAR A LA IZQUIERDA
+    {
+      digitalWrite(IN4, LOW);
+      digitalWrite(IN3, HIGH);//Pin 3 encendido
+      digitalWrite(IN2, LOW);
+      digitalWrite(IN1, HIGH);//Pin 1 encendido      
+    }
+   if(dato == '7')// RETOCEDER A LA DERECHA
+    {
+      digitalWrite(IN4, HIGH);//Pin 4 encendido
+      digitalWrite(IN3, LOW);
+      digitalWrite(IN2, HIGH);//Pin 2 encendido
+      digitalWrite(IN1, LOW);
+    }
+
+    if(dato == '8')// RETROCEDER A LA IZQUIERDA
     {
       digitalWrite(IN4, HIGH);//Pin 4 encendido
       digitalWrite(IN3, LOW);
       digitalWrite(IN2, LOW);
-      digitalWrite(IN1, HIGH);//Pin 1 encendido      
+      digitalWrite(IN1, HIGH);//Pin 1 encendido
     }
-   
+ 
 }
