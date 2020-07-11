@@ -5,7 +5,7 @@
 - Placa Arduino Genuino UNO
 - Controlador de motores L298N
 - Módulo Bloetooth HC/05
-- Cables de conección
+- Cables de conexión
 - Dos motores
 - Una batería de 9.0 V 
 
